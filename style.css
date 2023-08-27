@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+}
+
+.aba {
+    background-color: black;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aba-logo {
+    height: 50px;
+    width: 70px;
+    margin-left: 80px;
+}
+
+
+
+.aba-texto-traco {
+    color: azure;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.aba-texto-escrito {
+    color: azure;
+    margin-right: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.corpo-esquerdo {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 110px;
+}
+
+.corpo-esquerdo-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.corpo-esquerdo-texto {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.corpo-esquerdo-aba {
+    height: 130px;
+    width: 300px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color:  rgb(245, 90, 1);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    gap: 5px;
+
+}
+
+.corpo-esquerdo-aba-cartao {
+    margin: 10px;
+    height: 100px;
+}
+
+.corpo-esquerdo-aba-texto {
+    color: rgb(245, 90, 1);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.corpo-esquerdo-bloco {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.corpo-esquerdo-bloco-cubo {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    border-width: 1px; 
+    border-style: solid;
+    border-color:  rgb(209, 209, 209);
+}
+
+.corpo-esquerdo-bloco-cubo:hover {
+    background-color: rgb(128, 128, 128);
+    border-radius: 3px;
+}
+
+.corpo-centro {
+    margin-top: 120px;
+}
+
+.corpo-centro-imagem {
+    height: 320px;
+}
+
+.corpo-direito-formulario {
+    margin-right: 100px;
+    margin-top:50px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(187, 187, 187);
+    height: 250px;
+    width: 320px;
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo-direito-formulario-texto {
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.corpo-direito-formulario-cpf {
+    margin-top: 20px;
+    margin-right: 228px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+.corpo-direito-formulario-campo {
+    margin-top: 30px;
+    width: 270px;
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    font-size: 20px;
+}
+
+.corpo-direito-formulario-botao {
+    margin-top: 30px;
+    height: 40px;
+    width: 270px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(148, 148, 148);
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(211, 211, 211);
+
+}
+
+.corpo-direito-formulario-botao:hover {
+    color: rgb(85, 85, 85);
+    background-color: rgb(192, 192, 192);
+}
