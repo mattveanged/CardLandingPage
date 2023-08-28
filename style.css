@@ -10,7 +10,7 @@
 
 .aba {
     background-color: black;
-    height: 65px;
+    height: 4.0625rem; /* 65 pixels em rem */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,22 +18,20 @@
 }
 
 .aba-logo {
-    height: 50px;
-    width: 70px;
-    margin-left: 80px;
+    height: 3.125rem; /* 50 pixels em rem */
+    width: 4.375rem; /* 70 pixels em rem */
+    margin-left: 5rem; /* 80 pixels em rem */
 }
-
-
 
 .aba-texto-traco {
     color: azure;
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem; /* 20 pixels em rem */
 }
 
 .aba-texto-escrito {
     color: azure;
-    margin-right: 120px;
+    margin-right: 7.5rem; /* 120 pixels em rem */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -42,138 +40,133 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .corpo-esquerdo {
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 60px;
-    margin-left: 110px;
+    margin-top: 3.75rem; /* 60 pixels em rem */
+    margin-left: 6.875rem; /* 110 pixels em rem */
 }
 
 .corpo-esquerdo-titulo {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem; /* 40 pixels em rem */
 }
 
 .corpo-esquerdo-texto {
-    margin-top: 30px;
+    margin-top: 1.875rem; /* 30 pixels em rem */
     font-family: 'Roboto', sans-serif;
 }
 
 .corpo-esquerdo-aba {
-    height: 130px;
-    width: 300px;
-    border-width: 2px; 
+    height: 8.125rem; /* 130 pixels em rem */
+    width: 18.75rem; /* 300 pixels em rem */
+    border-width: 0.125rem; /* 2 pixels em rem */
     border-style: solid;
     border-color:  rgb(245, 90, 1);
-    border-radius: 9px;
+    border-radius: 0.5625rem; /* 9 pixels em rem */
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 50px;
-    margin-top: 50px;
-    gap: 5px;
-
+    margin-left: 3.125rem; /* 50 pixels em rem */
+    margin-top: 3.125rem; /* 50 pixels em rem */
+    gap: 0.3125rem; /* 5 pixels em rem */
 }
 
 .corpo-esquerdo-aba-cartao {
-    margin: 10px;
-    height: 100px;
+    margin: 0.625rem; /* 10 pixels em rem */
+    height: 6.25rem; /* 100 pixels em rem */
 }
 
 .corpo-esquerdo-aba-texto {
     color: rgb(245, 90, 1);
     font-family: 'Roboto', sans-serif;
-
 }
-
-
 
 .corpo-esquerdo-bloco {
     display: flex;
     flex-direction: row;
-    gap: 18px;
-    margin-top: 20px;
-    margin-left: 60px;
+    gap: 1.125rem; /* 18 pixels em rem */
+    margin-top: 1.25rem; /* 20 pixels em rem */
+    margin-left: 3.75rem; /* 60 pixels em rem */
 }
 
 .corpo-esquerdo-bloco-cubo {
-    width: 12px;
-    height: 12px;
-    border-radius: 3px;
-    border-width: 1px; 
+    width: 0.75rem; /* 12 pixels em rem */
+    height: 0.75rem; /* 12 pixels em rem */
+    border-radius: 0.1875rem; /* 3 pixels em rem */
+    border-width: 0.0625rem; /* 1 pixel em rem */
     border-style: solid;
     border-color:  rgb(209, 209, 209);
 }
 
 .corpo-esquerdo-bloco-cubo:hover {
     background-color: rgb(128, 128, 128);
-    border-radius: 3px;
+    border-radius: 0.1875rem; /* 3 pixels em rem */
 }
 
 .corpo-centro {
-    margin-top: 120px;
+    margin-top: 7.5rem; /* 120 pixels em rem */
 }
 
 .corpo-centro-imagem {
-    height: 320px;
+    height: 20rem; /* 320 pixels em rem */
 }
 
 .corpo-direito-formulario {
-    margin-right: 100px;
-    margin-top:50px;
-    border-width: 1px;
-    border-radius: 10px;
+    margin-right: 6.25rem; /* 100 pixels em rem */
+    margin-top: 3.125rem; /* 50 pixels em rem */
+    border-width: 0.625rem; /* 10 pixels em rem */
+    border-radius: 0.625rem; /* 10 pixels em rem */
     border-color: rgb(187, 187, 187);
-    height: 250px;
-    width: 320px;
-    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    height: 15.625rem; /* 250 pixels em rem */
+    width: 20rem; /* 320 pixels em rem */
+    box-shadow: 0.0625rem 0.0625rem 0.625rem rgb(204, 204, 204);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .corpo-direito-formulario-texto {
-    margin-top: 50px;
+    margin-top: 3.125rem; /* 50 pixels em rem */
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    letter-spacing: 0.5px;
+    font-size: 1.0625rem; /* 17 pixels em rem */
+    letter-spacing: 0.03125rem; /* 0.5 pixels em rem */
 }
 
 .corpo-direito-formulario-cpf {
-    margin-top: 20px;
-    margin-right: 228px;
-    font-size: 15px;
+    margin-top: 1.25rem; /* 20 pixels em rem */
+    margin-right: 14.25rem; /* 228 pixels em rem */
+    font-size: 0.9375rem; /* 15 pixels em rem */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(97, 97, 97);
 }
 
 .corpo-direito-formulario-campo {
-    margin-top: 30px;
-    width: 270px;
+    margin-top: 1.875rem; /* 30 pixels em rem */
+    width: 16.875rem; /* 270 pixels em rem */
     display: block;
     outline: none;
     border: none;
-    border-bottom: 1px solid rgb(172, 172, 172);
-    font-size: 20px;
+    border-bottom: 0.0625rem solid rgb(172, 172, 172);
+    font-size: 1.25rem; /* 20 pixels em rem */
 }
 
 .corpo-direito-formulario-botao {
-    margin-top: 30px;
-    height: 40px;
-    width: 270px;
-    font-size: 15px;
+    margin-top: 1.875rem; /* 30 pixels em rem */
+    height: 2.5rem; /* 40 pixels em rem */
+    width: 16.875rem; /* 270 pixels em rem */
+    font-size: 0.9375rem; /* 15 pixels em rem */
     font-family: 'Roboto', sans-serif;
     color: rgb(148, 148, 148);
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem; /* 4 pixels em rem */
     background-color: rgb(211, 211, 211);
-
 }
 
 .corpo-direito-formulario-botao:hover {
     color: rgb(85, 85, 85);
     background-color: rgb(192, 192, 192);
 }
+
